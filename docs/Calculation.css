@@ -1,0 +1,22 @@
+.textbox{
+  width:120px;
+  text-align:right;
+  margin-bottom:5px;
+}
+.button{
+  width:65px;
+  text-align:center;
+  border-radius:10px;
+  transition:0.5s;
+  border:none;
+  background-color:#CCCCCC;
+}
+/*ボタンの上にカーソルをおいたときの変化後の色*/
+.button:hover{
+  background:#888888;
+  color:white;
+}
+/*ボタンを押したときの枠線削除*/
+.button:focus{
+  outline:0;
+}
