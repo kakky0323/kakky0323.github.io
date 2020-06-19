@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>計算</title>
+<head>
+  <h2>計算アプリ</h2>
+</head>
+<body>
+  <form>
+    <input type="text" class="textbox" id="textbox1" value="">
+    <select name="kigou" id="select">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">×</option>
+      <option value="/">÷</option>
+    </select>
+    <input type="text" class="textbox" id="textbox2">
+    <span>=</span>
+    <input type="text" class="textbox" id="textbox3">
+    <div>
+      <input type="button" class="button" value="計算" onclick="func()">
+      <input type="button" class="button" value="クリア" onclick="func1()">
+    </div>
+  </form>
+</body>
+<script src="index.js"></script>
+</html>
